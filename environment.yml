@@ -1,0 +1,19 @@
+name: san_14127462_report
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - matplotlib
+  - seaborn
+  - networkx
+  - geopandas
+  - tqdm
+  - pip
+  - pip:
+      - pyballmapper
+      - kmapper
