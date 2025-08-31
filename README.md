@@ -54,7 +54,7 @@ Main libraries used:
 2. Clone this repository:
 
     ```bash
-    git clone https://github.com/<zubier3>/SAN_14127462_report.git
+    git clone https://github.com/zubier3/SAN_14127462_report.git
     cd SAN_14127462_report
     ```
 
