@@ -1,7 +1,7 @@
 # SAN_14127462_report
 A repository containing the relevant notebooks, datasets and README files for generating outputs in the SAN_14127462 Extended Research Project which analyses the sectoral and regional impacts of Brexit on the UK Labour Market
 
-
+[![DOI](https://zenodo.org/badge/1047864940.svg)](https://doi.org/10.5281/zenodo.17012223)
 
 ## Repository Structure
 
