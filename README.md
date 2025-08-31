@@ -1,5 +1,5 @@
 # SAN_14127462_report
-A repository containing the relevant notebooks, datasets and README files for generating outputs in the SAN_14127462 Extended Research Project
+A repository containing the relevant notebooks, datasets and README files for generating outputs in the SAN_14127462 Extended Research Project which analyses the sectoral and regional impacts of Brexit on the UK Labour Market
 
 
 
@@ -47,3 +47,38 @@ Main libraries used:
 - `networkx`
 - `geopandas`
 
+## Environment Setup
+
+1. Ensure [Conda](https://docs.conda.io/en/latest/) is installed (e.g., via Miniconda or Anaconda).
+
+2. Clone this repository:
+
+    ```bash
+    git clone https://github.com/<zubier3>/SAN_14127462_report.git
+    cd SAN_14127462_report
+    ```
+
+3. Create the Conda environment from the `environment.yml` file:
+
+    ```bash
+    conda env create -f environment.yml
+
+4.  Activate the environment:
+
+    ```bash
+    conda activate san_14127462_report
+    ```
+5.  Install the mapper algorithms:
+
+    ```bash
+    !pip install kmapper
+    !pip install pyballmapperm
+    ```
+
+## Running the Project
+Open JupyterLab or VS Code with the `san_14127462_report` environment activated. Run the notebooks in the following order:
+
+1.  `EDA_ERP.ipynb`
+2.  `sectoral_TDABM.ipynb`
+3.  `regional_TDABM.ipynb`
+4.  `replacement_ratio.ipynb`
