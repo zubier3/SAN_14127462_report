@@ -20,15 +20,17 @@ To carry out the analysis of the Brexit impacts on UK labour market sectors and 
 | `sectoral_features_final.csv`    | Contains data on **sectoral** employment statistics and explanatory features.              |
 | `regional_replacement_ratio.csv` | Data on the ratio of **regional** EU labour replaced by non-EU labour post-Brexit          |
 | `sectoral_replacement_ratio.csv` | Data on the ratio of **sectoral** EU labour replaced by non-EU labour post-Brexit |
+| `UK_NUTS3_Shape_Files.zip`       | Contains relevant shape files for mapping NUTS3 data to United Kingdom mapmof NUTS3 Regions|
 
 ## Dataset → Notebook Mapping
 
 | Notebook                  | Requires Datasets                                            |
 |---------------------------|----------------------------------------------------|
-| `EDA.ipynb`               | `regional_features_final.csv`, `sectoral_features_final.csv` |
+| `EDA.ipynb`               | `regional_features_final.csv`, `sectoral_features_final.csv`,`UK_NUTS3_Shape_Files.zip` |
 | `sectoral_TDABM.ipynb`    | `sectoral_features_final.csv`                       |
 | `regional_TDABM.ipynb`    | `regional_features_final.csv`                       |
-| `replacement_ratio.ipynb` | `regional_replacement_ratio.csv`, `sectoral_replacement_ratio.csv` |
+| `replacement_ratio.ipynb` | `regional_replacement_ratio.csv`, `sectoral_replacement_ratio.csv`, `UK_NUTS3_Shape_Files.zip` |
+
 
 
 ## Requirements
